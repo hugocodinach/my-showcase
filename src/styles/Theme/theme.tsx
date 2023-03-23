@@ -18,6 +18,10 @@ const theme: ITheme = {
             "fontSize": "1.2rem",
             "fontWeight": 400
         },
+        "bodyAccent": {
+            "fontSize": "1.2rem",
+            "fontWeight": 600
+        },
         "button": {
             "fontSize": "1.2rem",
             "fontWeight": 500

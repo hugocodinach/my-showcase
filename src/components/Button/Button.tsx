@@ -7,13 +7,15 @@ import styles from './Button.module.scss';
 type TextProps = {
     style?: (React.CSSProperties & object) | undefined;
     text: string;
+    onClick?: () => void;
 };
 
 function Button({
     style = {},
-    text
+    text,
+    onClick
 }: TextProps) {
-	const { colors, spacing } = theme;
+	const { spacing } = theme;
 
     const [isHover, setIsHover] = useState(false);
 
@@ -26,6 +28,7 @@ function Button({
 			className={styles.container}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
+            onClick={onClick}
         >
             <Text color={isHover ? 'text' : 'white'} variant='button'>{text}</Text>
 		</div>
