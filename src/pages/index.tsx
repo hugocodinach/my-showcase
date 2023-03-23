@@ -10,7 +10,7 @@ import Link from 'next/link';
 export default function Home() {
 	const { spacing } = theme;
 
-	const presRef = useRef(null);
+	const presRef = useRef<null | HTMLDivElement>(null);
 
 	const scrollToRef = () => {
 		if (!presRef?.current)
