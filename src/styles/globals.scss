@@ -1,0 +1,65 @@
+@import "./variables.scss";
+
+html {
+  width: 100%;
+  height: 100%;
+
+  @media screen and (min-width: 0px) {
+        font-size: 5px;
+	}
+	@media screen and (min-width: $mobileS) {
+        font-size: 6px;
+	}
+	@media screen and (min-width: $mobileM) {
+        font-size: 7px;
+	}
+	@media screen and (min-width: $mobileL) {
+        font-size: 9px;
+	}
+	@media screen and (min-width: $tablet) {
+        font-size: 10px;
+	}
+	@media screen and (min-width: $laptop) {
+        font-size: 12px;
+	}
+	@media screen and (min-width: $laptopL) {
+        font-size: 14px;
+	}
+	@media screen and (min-width: $desktop) {
+        font-size: 16px;
+	}
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  scrollbar-color: rgba(210,210,210, 0) rgba(46,54,69, 0) !important;
+  scrollbar-width: thin !important;
+}
+
+/* Avoid Chrome to see Safari hack */
+@supports (-webkit-touch-callout: none) {
+  body {
+    /* The hack for Safari */
+    min-height: -webkit-fill-available;
+  }
+}
