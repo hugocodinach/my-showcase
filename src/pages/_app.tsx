@@ -1,3 +1,4 @@
+import NavBar from '@/components/NavBar/NavBar';
 import '@/styles/globals.scss';
 import type { AppProps } from 'next/app';
 import { Poppins } from 'next/font/google';
@@ -16,6 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				font-family: ${poppins.style.fontFamily};
 				}
 			`}</style>
+			<NavBar />
 			<Component {...pageProps} />
 		</>
 	);
