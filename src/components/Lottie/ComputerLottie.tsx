@@ -11,7 +11,7 @@ function ComputerLottie() {
 		animationData
 	};
 
-	const { View } = useLottie(defaultOptions, { width: '60rem' });
+	const { View } = useLottie(defaultOptions, { width: '50vw', minWidth: 300 });
 
 	return View;
 }

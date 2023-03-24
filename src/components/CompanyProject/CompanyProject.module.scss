@@ -1,3 +1,5 @@
+@import "@/styles/variables.scss";
+
 .container {
     width: 100%;
     display: flex;
@@ -10,6 +12,10 @@
     flex-direction: column;
     margin-left: 15%;
     width: 35rem;
+
+    @media screen and (max-width: $tablet) {
+        margin-left: 5%;
+	}
 }
 
 .rightContainer {
@@ -19,6 +25,11 @@
     width: 35rem;
     flex-wrap: wrap;
     gap: 3rem;
+    margin-left: 10px;
+
+    @media screen and (max-width: $tablet) {
+        margin-right: 5%;
+	}
 }
 
 .imageContainer {
