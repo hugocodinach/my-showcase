@@ -14,6 +14,10 @@ const theme: ITheme = {
             "fontSize": "3rem",
             "fontWeight": 700
         },
+        "subtitle": {
+            "fontSize": "2.5rem",
+            "fontWeight": 700
+        },
         "body": {
             "fontSize": "1.2rem",
             "fontWeight": 400

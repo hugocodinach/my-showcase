@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+    margin-left: 15%;
+    width: 35rem;
+    margin-bottom: 10vh;
+}
+
+.itemContainer {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    white-space: normal;
+}
+
+.itemLeftContainer {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.itemRightContainer {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemImage {
+    width: 80%;
+    object-fit: contain;
+}
+
+.rowWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.musicContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.musicImageContainer {
+    display: flex;
+    width: 12rem;
+    height: 12rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.album {
+    width: 100%;
+    object-fit: contain;
+}
+
+.itemDrawContainer {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drawImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.spacer {
+    margin-bottom: 10vh;
+}

@@ -21,6 +21,7 @@ export interface ITypography {
 
 export interface ITypographies {
     title: ITypography;
+    subtitle: ITypography;
     body: ITypography;
     bodyAccent: ITypography;
     button: ITypography;

@@ -1,0 +1,18 @@
+.paginatorContainer {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.paginatorButton {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+}
